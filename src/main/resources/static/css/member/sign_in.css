@@ -198,12 +198,22 @@ address {
 
 
 
+
+.info__title h2{
+    text-align: center;
+}
+
+
+
+
  /* 회원가입 입력 종류 (아이디,이름...)*/
  .join--table th {
     text-align: left;
     padding-right: 20px;
     /* padding: 0; */
     /* outline: 1px solid red; */
+    vertical-align: top;
+    padding-top: 5px;
 }
 
 /* 회원가입 입력 내용 */
