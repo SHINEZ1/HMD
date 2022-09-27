@@ -88,7 +88,7 @@ public class ReviewPostController {
     return "redirect:/reviews";
   }
     //목록
-    @GetMapping
+    @GetMapping("/all")
     public String all(Model model) {
 
     List<Review> list = reviewPostSVC.all();
