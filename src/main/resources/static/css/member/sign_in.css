@@ -193,14 +193,33 @@ address {
 }
 
 
+#signInMain{
+    /* outline: 1px solid red; */
+    
+}
 
 
 
+#signInMain .container{
+    /* outline: 1px solid red; */
+    width: 80%;
 
+}
+
+.info__title{
+    padding: 70px 0;
+    /* border-bottom:3px solid #ff6d00; */
+    /* outline: 1px solid red; */
+    /* display: flex;
+    justify-content: center; */
+    /* width: 60%; */
+    
+}
 
 
 .info__title h2{
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -220,6 +239,7 @@ address {
 .join--table td {
     padding-top: 5px;
     padding-bottom: 15px;
+    /* outline: 1px solid red; */
 }
 
 /* 입력 알림 (중복된아이디, 비밀번호 불일치...) */
@@ -232,15 +252,23 @@ address {
 
 
 
-.join--table label{
+.join--table input{
     /* outline: 1px solid red; */
 }
 
 
+.idDupChk,
+.nickDupChk{
+    padding: 3px 12px;
+    background-color: #bbb;
+    font-size: 14px;
+    
+}
+
 
 
 .box {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

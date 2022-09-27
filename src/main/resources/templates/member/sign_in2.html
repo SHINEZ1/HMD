@@ -80,14 +80,13 @@
     <!-- ======================================================================================================            -->
     <div class="container">
       <div class="info__title">
-        <h2 id="title">회원 가입</h2>
+        <h2 id="title">회원가입</h2>
       </div>
 
       
 
       <div class="center__container">
         <div class="container__div">
-          <span class="common signin__title"> 정보 입력</span>
           <div class="signin__box">
             <form action="" class="box" method="post" th:object="${form}">
               <fieldset class="box">
@@ -126,12 +125,15 @@
                     <td><input type="password" id="password_chk" class="one--block"></td>
                   </tr>
                   <tr>
-                    <td class="notice notice--password__check">비밀번호가 일치하지 않습니다.</td>
+                    <td class="notice notice--password__check"></td>
                   </tr>
                   <tr>
                     <th><label for="name">이름</label></th>
                     <td><input type="text" id="name" class="one--block" placeholder="홍길동"
                                th:field="*{name}"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
                   </tr>
                   <tr>
                     <th rowspan="2"><label for="nickname">닉네임</label></th>
