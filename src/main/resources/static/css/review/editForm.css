@@ -353,15 +353,23 @@ textarea {
 }
 
 
-.register_btn {
+.ck-editor__editable{
+    height:450px;
+    overflow-y: scroll;
+    border: 0;
+    }
+
+
+.promotion_btn {
     width: 80%;
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.register_btn button {
-    padding: 2px 25px 2px 25px;
+.promotion_btn button {
+    padding: 3px 8px;
+    margin: 10px;
 }
 
 
