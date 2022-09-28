@@ -207,36 +207,38 @@ address {
 }
 
 /*메인*/
-#logInMain{
+#findId_main{
     /* outline: 1px solid red; */
 }
 
-#logInMain .container{
+#findId_main .container{
     width: 80%;
     /* outline: 1px solid red; */
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
 
-#logInMain .container .login_title{
-    display: flex;
-    justify-content: center;
+#findId_main .container .findId_title{
     padding-top: 50px;
-
+    text-align: center;
 }
 
 
 .container .center_container{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 120px 0;
+    width: 80%;
 }
 
 
-.center_container .login_box{
+.center_container .findId_box{
     width: 50%;
-    /* outline: 1px solid #bbb; */
+    /* outline: 1px solid RED; */
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -244,66 +246,37 @@ address {
 }
 
 
-.center_container .login_box #input_id,
-.center_container .login_box #input_pw
-{
-    
-    width: 100%;
-    height: 40px;
-    margin: 10px;
-    /* outline: 1px solid red; */
-    border-radius: 9px;
-    padding-left: 10px;
-    border:1px solid  #888 ;
-}
-
-
-.center_container .login_stay{
-    width: 100%;
-    height: 40px;
-    margin: 10px;
-}
-
-
-
-.center_container #loginBtn{
-    width: 100%;
-    margin: 10px;
-    height: 40px;
-    background-color: #ff6d00;
-    border: 0;
-    color: white;
-    border-radius: 4px;
-    font-weight: bold;
-}
-
-
-
-.center_container .login_option{
-    width: 100%;
-    height: 40px;
-    margin: 10px;
+.findId_radio{
     display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.findId_radio input{
+    /* outline: 1px solid red; */
+    vertical-align: top;
+    margin-right: 20px;
+    width: 20px;
+}
+
+.findId_radio p:nth-child(2){
+    font-size: 0.7rem;
+}
+
+
+.findId_name,
+.findId_pnumber{
+    margin-bottom: 20px;
+
 }
 
 
 
-.center_container .login_option span{
-   padding: 0 20px;
+
+.findId_name input,
+.findId_pnumber input{
+    width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
