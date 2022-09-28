@@ -251,6 +251,7 @@ address {
     height: 40px;
     margin: 10px;
     /* outline: 1px solid red; */
+    border-radius: 9px;
 }
 
 

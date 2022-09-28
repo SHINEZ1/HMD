@@ -12,6 +12,6 @@ public class HomeController {
   @GetMapping
   private String home(Model model) {
 
-    return "member/sign_in2";
+    return "member/mypage";
   }
 }
