@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:fragment="headerFragment">
+  <!-- <header id="mainHeader"> -->
+  <!-- 로그인 하기 이전 Header layout -->
+  <div id="colorbox"></div>
+  <div class="container">
+    <!--탑/메뉴-->
+    <div id="uppermost">
+      <div class="content content-upm">
+        <div class="logo"><h1 style="font-family: 'ulsanjunggu">울산 한마당</h1></div>
+        <div class="login"><a href="#">로그인</a><span class="interval">|</span><a th:href="@{/sign_in}">회원가입</a></div>
+    </div>
+
+    <nav id="gnb">
+      <div class="content content-g">
+        <ul class="gnb-menu">
+          <li class="gnb-menu__item">
+            <a href="event_info.html" class="title">공연·전시
+              <!-- <ul>
+                  <li><a href="">전체</a></li>
+                  <li><a href="">공연</a></li>
+                  <li><a href="">전시</a></li>
+              </ul> -->
+            </a>
+          </li>
+          <li class="gnb-menu__item">
+            <a href="promotion.html" class="title">홍보</a>
+          </li>
+          <li class="gnb-menu__item">
+            <a href="review.html" class="title">후기</a>
+          </li>
+          <li class="gnb-menu__item">
+            <a href="map.html" class="title">문화지도</a>
+          </li>
+          <li class="gnb-menu__item">
+            <a href="#" class="title">내정보
+              <ul>
+                <li><a href="">내정보</a></li>
+                <li><a href="">관리</a></li>
+                <li><a href="">활동 내역</a></li>
+              </ul>
+            </a>
+          </li>
+        </ul>
+
+        <div class="gnb-search">
+          <input class="search__input" type="text" placeholder="검색">
+          <i class="fas fa-search"></i></button>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</th:block>
+
+</html>
