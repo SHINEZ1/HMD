@@ -40,7 +40,7 @@ address {
 
 /*공통*/
 .content { 
-    width: 80%; 
+    width: 100%; 
     margin: 0 auto;
 }
 
@@ -48,6 +48,14 @@ address {
     height: 0.5rem;
     background-color: var(--color-sub);
 }
+
+
+.container{
+    width: 100%;
+    /* outline: 1px solid red; */
+}
+
+
 
 /*uppermost*/
 #uppermost {
@@ -259,11 +267,16 @@ section {
     padding: 30px 10px 10px 10px;
 }
 
-.category li {
+.category li,
+.perform_title li,
+.perform_date li,
+.file li {
     width: 10%;
+    font-weight: bold;
 }
 
-.category select {
+.category select,
+.perform_date input {
     width: 150px;
     font-size : inherit;
     padding: 2px;
@@ -271,14 +284,23 @@ section {
 }
 
 
-.perform_title {
+.perform_title,
+.perform_date{
     display: flex;
-    padding: 10px;    
+    padding: 10px;
 }
 
-.perform_title li {
-    width: 10%;
-    /* outline: 1px solid red; */
+
+
+
+
+
+
+.perform_title select {
+    width: 90%;
+    font-size : inherit;
+    padding: 2px;
+    border: 1px solid rgb(190, 190, 190);
 }
 
 
@@ -292,6 +314,18 @@ section {
 
 }
 
+
+
+
+.content_date input {
+    width: 150px;
+    font-size: inherit;
+    padding: 3px;
+    border: 1px solid rgb(190, 190, 190);
+    box-sizing: border-box;
+
+
+}
 
 
 
@@ -309,9 +343,7 @@ section {
     
 }
 
-.file li {
-    width: 10%;
-}
+
 
 .file input {
     width: 80%;
@@ -328,6 +360,7 @@ section {
     border-radius: 5px;
     padding: 5px;
     margin: 10px 10px 30px 10px;
+    height: 110px;
 }
 
 
@@ -342,34 +375,36 @@ section {
 }
 
 
-textarea {
+#reviewPostContent{
     width: 98%;
     height: 500px;
     padding: 10px;
     margin: 10px;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 0px solid rgb(190, 190, 190);
+    /* border: 0px solid rgb(190, 190, 190); */
+         /* overflow-y: scroll; */
+
 }
 
 
-.ck-editor__editable{
-    height:450px;
-    overflow-y: scroll;
-    border: 0;
-    }
+
+     .ck-editor__editable{
+     height:450px;
+     overflow-y: scroll;
+     border: 0;
+     }
 
 
-.promotion_btn {
+.register_btn {
     width: 80%;
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.promotion_btn button {
-    padding: 3px 8px;
-    margin: 10px;
+.register_btn button {
+    padding: 2px 25px 2px 25px;
 }
 
 

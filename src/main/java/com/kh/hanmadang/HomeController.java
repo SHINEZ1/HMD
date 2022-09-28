@@ -12,6 +12,6 @@ public class HomeController {
   @GetMapping
   private String home(Model model) {
 
-    return "member/mypage";
+    return "/post/review/editForm";
   }
 }

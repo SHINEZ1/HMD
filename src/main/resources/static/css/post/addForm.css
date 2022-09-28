@@ -267,11 +267,16 @@ section {
     padding: 30px 10px 10px 10px;
 }
 
-.category li {
+.category li,
+.perform_title li,
+.perform_date li,
+.file li {
     width: 10%;
+    font-weight: bold;
 }
 
-.category select {
+.category select,
+.perform_date input {
     width: 150px;
     font-size : inherit;
     padding: 2px;
@@ -279,14 +284,18 @@ section {
 }
 
 
-.perform_title {
+.perform_title,
+.perform_date{
     display: flex;
     padding: 10px;
 }
 
-.perform_title li{
-    width: 10%;
-}
+
+
+
+
+
+
 .perform_title select {
     width: 90%;
     font-size : inherit;
@@ -305,15 +314,6 @@ section {
 
 }
 
-.content_date {
-    display: flex;
-    padding: 10px;    
-}
-
-.content_date li {
-    width: 10%;
-    /* outline: 1px solid red; */
-}
 
 
 
@@ -343,9 +343,7 @@ section {
     
 }
 
-.file li {
-    width: 10%;
-}
+
 
 .file input {
     width: 80%;
@@ -362,6 +360,7 @@ section {
     border-radius: 5px;
     padding: 5px;
     margin: 10px 10px 30px 10px;
+    height: 110px;
 }
 
 
