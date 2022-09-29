@@ -300,12 +300,23 @@ address {
 }
 
 #changePwBtn {
-  width: 100%;
+  width: 120px;
   border: 0;
   height: 35px;
   background-color: #ff6d00;
   color: white;
   border-radius: 5px;
+  margin-right: 20px;
+}
+
+#cancelPwBtn{
+  width: 120px;
+  border: 0;
+  height: 35px;
+  background-color: #fff;
+  color: #ff6d00;
+  border-radius: 5px;
+  border: 1px solid #ff6d00;
 }
 
 /* footer */
