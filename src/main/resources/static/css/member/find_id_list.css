@@ -206,6 +206,11 @@ address {
 
 }
 
+
+
+
+
+
 /*메인*/
 #findIdList_main{
     /* outline: 1px solid green; */
@@ -246,7 +251,7 @@ address {
 
 .center_container .findIdList_box{
     width: 40%;
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
     display: flex;
     justify-content: center;
     padding: 30px 40px;
@@ -255,17 +260,40 @@ address {
 
 
 .center_container .findIdList_box p{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+    margin: 20px 0;
 }
 
 
+.center_container .findIdList_box .findedId{
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
 
 
+.center_container .findIdList_box .findIdList_Btn{
+    display: flex;
+    justify-content: center;
+}
+
+.center_container .findIdList_box .findIdList_Btn button:nth-child(1){
+    background-color: #fd9f56;
+    border: 0;
+    margin-right: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.center_container .findIdList_box .findIdList_Btn button:nth-child(2){
+    background-color: #fff;
+    border: 1px solid #fd9f56;
+    width: 120px;
+    border-radius: 5px;
 
 
-
-
-
+}
 
 
 
